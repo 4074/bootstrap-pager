@@ -1,6 +1,6 @@
 
 # Bootstrap Pager **[demo](http://4074.github.io/bootstrap-pager)**
-### a tiny driver use to show something by pages on front end.
+####a tiny driver use to show something by pages on front end.
 
 ![page](lib/page.png)
 
@@ -20,7 +20,7 @@ To use, you'll need to include files like so.
 Once you've included those files, you can initialize Pager.
 
 ```javascript
-$('#myPager').card({
+$('#myPager').pager({
     pages: 12, // the total pages
 });
 ```

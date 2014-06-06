@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-pager",
+  "version": "0.1.0",
+  "description": "a tiny driver use to show something by pages on front end",
+  "main": "Gruntfile.js",
+  "author": "wenfeng",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.3.0"
+  }
+}

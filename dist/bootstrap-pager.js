@@ -211,8 +211,11 @@
             var data = $this.data('bs.pager')
             var options = $.extend({}, Pager.defaults, $this.data(), typeof option == 'object' && option)
 
-            if (!data) $this.data('bs.pager', (data = new Pager(this, options)))
-            if (typeof option == 'string') data[option](args)
+            if (typeof option == 'string'){
+              data[option](args)
+            } else {
+              $this.data('bs.pager', (data = new Pager(this, options)))
+            }
         })
     }
 
